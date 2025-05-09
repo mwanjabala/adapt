@@ -20,7 +20,7 @@ Message:
 ${formData.message}
     `.trim()
 
-    const mailtoLink = `mailto:admin@adaptapp.io?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    const mailtoLink = `mailto:dmwanjabala@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
     window.location.href = mailtoLink
   }
 
@@ -47,7 +47,7 @@ ${formData.message}
             <div className="space-y-2">
               <p className="text-gray-500 dark:text-gray-400">
                 <strong>Email:</strong>{' '}
-                <a href="mailto:admin@adaptapp.io" className="text-primary hover:underline">
+                <a href="mailto:dmwanjabala@gmail.com" className="text-primary hover:underline">
                   admin@adaptapp.io
                 </a>
               </p>
